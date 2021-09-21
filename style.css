@@ -17,8 +17,8 @@ BARVY:
 tlačítko Twitter:					 #1da1f2
 tlačítko Twitter aktivní:	 #0b7bc1
 
-tlačítko Facebook:				 #3b5998
-tlačítko Facebook aktivní: #2b406e
+tlačítko fb:				 #3b5998
+tlačítko fb aktivní: #2b406e
 */
 
 body {
@@ -75,8 +75,7 @@ h1 {
 
 .twitter:hover,
 .twitter:active,
-.twitter:focus,
-.twitter:visited {
+.twitter:focus {
   background-color: #0b7bc1;
 }
 
@@ -86,7 +85,6 @@ h1 {
 
 .fb:hover,
 .fb:active,
-.fb:focus,
-.fb:visited {
+.fb:focus {
   background-color: #2b406e;
 }
